@@ -46,6 +46,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 https://blog.logrocket.com/deploying-react-apps-github-pages/
+https://medium.com/@thomaslaird/multiple-react-router-app-deployments-on-github-pages-rafrex-spa-f8f9de04dacf
+
 
 git init
 git add .
