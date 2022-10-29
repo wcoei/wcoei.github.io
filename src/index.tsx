@@ -24,7 +24,6 @@ root.render(
             <Route path='newpage' element={<NewPage/>}/>
             <Route path='counter' element={<Counter/>}/>
             <Route path='Auth' element={<Auth/>}/>
-            <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

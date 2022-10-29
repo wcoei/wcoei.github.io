@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import { isError } from 'util';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import authSlice from './authSlice';
 
