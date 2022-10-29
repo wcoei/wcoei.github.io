@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NewPage } from './features/newPage';
 import { Counter } from './features/counter/Counter';
 import { Auth } from './features/auth/auth';
+import { NoPage } from './features/nopage';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
@@ -23,6 +24,7 @@ root.render(
             <Route path='newpage' element={<NewPage/>}/>
             <Route path='counter' element={<Counter/>}/>
             <Route path='Auth' element={<Auth/>}/>
+            <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
